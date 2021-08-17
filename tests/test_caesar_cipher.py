@@ -10,7 +10,7 @@ def test_version():
 
 @pytest.mark.parametrize(
     "test_input,key,decrypted",
-     [("Roaa",8,"Ivia"),
+     [("Roaa",8,"Zwii"),
       ("Hello World",6,'Nkrru Cuxrj'),
       ("Nice to meet you", 42,'Dysu je cuuj oek')]
      )
@@ -22,7 +22,7 @@ def test_encrypting(test_input,key,decrypted):
 
 @pytest.mark.parametrize(
     "test_input,key,decrypted",
-     [("Roaa",8,"Ivia"),
+     [("Roaa",8,"Zwii"),
       ("Hello World",6,'Nkrru Cuxrj'),
       ("Nice to meet you", 42,'Dysu je cuuj oek')]
      )
